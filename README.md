@@ -18,27 +18,36 @@ A chief data scientist for a city school district has given me the following tas
 -Software; Anaconda 4.11.0 , Jupyter Notebook 6.4.6
 
 ## Results
+The analysis of the school disctrict shows that:
+-The district summary is affected by only a few tenths of a percent. The new disctrict summary passing percentages are down.
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/District_Summary_Images/District_Summary.png
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/District_Summary_Images/New_District_Summary.png
 
 
-## Summary
-The analysis of the election show that:
-- There were 369,711 votes cast in the election.
-- The county turnout results were:
-    - Jefferson County turnout was 10.5% of the votes and 38,855 number of votes.
-    - Denver County turnout was 82.8% of the votes and 306,055 number of votes.
-    - Arapahoe County turnout was 6.7% of the votes and 24,801 number of votes.
-- The county with the largest turnout was:
-    - Denver County
-- The candidates were:
-    - Charles Casper Stockham
-    - Diana DeGette
-    - Raymon Anthony Doane
-- The candidate results were:
-    - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-    - Diana DeGette receieved 73.8% of the vote and 272,892 number of votes.
-    - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-- The winner of the election was:
-    - Diana DeGette, who receieved 73.8% of the vote and 272,892 number of votes.
+-The school summary isn't affected. THS stays in second place but has a small increase in % Overall Passing.
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/School_Summary_Images/School_Summary.png
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/School_Summary_Images/New_school_summary.png
+    
+    
+-Replacing the scores doesn't affect Thomas High Schools performance relative to the other schools. THS is still one of the top performing schools.
+
+-Replacing the ninth-grade scores affects the math and reading scores by grade by giving Thomas High School only three eligible scores for the analysis instead of the four like the other schools. Potentially not as accurate of analysis only being able to use tenth-twelfth grades.
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/math_scores_by_grade.png
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/new_math_scores_by_grade.png
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/reading_scores_by_grade.png
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/new_reading_scores_by_grade.png
+    
+       
+-Scores by school spending are not affected at all.
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/spending_summary.png
+
+-Scores by school size are not affecred at all.
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/size_summary.png
+    
+-Scores by school type are not affected at all.
+    -https://github.com/Twes999/School_District_Analysis/blob/main/Resources/Images/Ninth_grade_replacement_scores/type_summary.png
+    
+ 
 
 ## Challenge Summary
-With this script and a few modifications we can do an audit on a grander scale (national election) by adding in more candidates to the pool or a more in depth way by finding the results of each candidate in each county of a state. With modifications we can dive deep and see how a particular candidate did in a county like Jefferson County or in a different county of a different state if we expand analysis to a national level. 
+The changes that were visable in the updated school district analysis were when looking at the district summary and school summary. In each of theis data frames, when looking at the unformatted data you can see the difference in tenths of percents. The reading and math scores in each of these data frames does down by the a few tenths of a percent.
